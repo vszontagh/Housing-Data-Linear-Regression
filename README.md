@@ -69,7 +69,7 @@ The average hous price on these zipcodes are:
 - 98103: 585048 +/- 73488 USD
 - 98115: 619944 +/- 73488 USD
 
-<img src='img/'map.png'>
+<img src='img/map.png'>
 
 ## Next Steps
 If I had more time I would have tried to get some more data about the neighborhood. In general how safe is the recommended area. How close are parks, schools and restaurants. I would also try to point out the distance to the closest public transport stops (e.g.: subway stations).
