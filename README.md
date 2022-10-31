@@ -33,6 +33,9 @@ Created new columns:
 - month (from date)
 - year (from date)
 
+I also checked for outliers. There were extreme values in some of the features in the housing data sets. Compared to the 75 percentile for bedrooms, the max value was 33, or bathrooms it was 8. The maximum sqft_living 13540 and for sqft_lot15 the max value was 871200.
+I set the dataframe to include houses with price value of 2.5 million dollar or less. This removed 107 rows. I caped the sqft_living at 9000 sqft, and the maximum bathroom at 6.
+
 
 ## Modeling
 I did a 70 - 30% train -test split after the baseline model. The target variable is the price and all the other variables as predictors. I craeted 5 linear regression models and selected the best one comparing to the baseline model. I used one-hot encoder for the zipcodes. 
